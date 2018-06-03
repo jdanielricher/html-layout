@@ -1,48 +1,68 @@
-.containerOne {
-    height: 100px;
-    width: 800px;
-    border: 3px solid black;
+body {
+  margin: 0;
+  padding: 25px;
 }
-.squareOne {
-    background-color: blueviolet;
-    height: 75px;
-    width: 24px;
-    transform: translate(4px,20px);    
+
+.container-one {
+  width: 100%;
+  border: 5px solid black;
+  padding: 10px;
+  box-sizing: border-box;
 }
-.squareTwo {
-    background-color: green;
-    height: 90px;
-    width: 190px;
-    transform: translate(60px, -70px);
+
+.square-one {
+  height: 150px;
+  width: 50px;
+  background-color: rgb(138, 43, 226);
+  display: inline-block;
 }
-.circle {
-    background-color: lightblue;
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
-    transform: translate(275px, -160px);
+.square-two {
+  height: 200px;
+  width: 400px;
+  display: inline-block;
+  background-color: rgb(34, 139, 34);
+  margin: 0 50px;
 }
-.containerTwo {
-    height: 150px;
-    width: 800px;
-    border: 3px dotted black;
+.circle-one {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: rgb(121, 196, 226);
+  display: inline-block;
 }
-.beigeSquare {
-    background-color: #fff9cf;
-    height: 100px;
-    width: 700px;
-    transform: translate(50px,25px);
-    box-shadow: 5px 5px 5px 0px #252525;
+
+.container-two {
+  width: 100%;
+  border: 5px dotted black;
+  padding: 50px;
+  box-sizing: border-box;
+  margin-top: 25px;
 }
-.containerThree {
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
+
+.box-shadow {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(252, 247, 200);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
-.thinSquare {
-    background-color: rgb(255, 11, 11);
-    height: 100px;
-    width: 200px;
-    transform: translate(50px,100px);
-    box-shadow: 5px 5px 5px 0px #252525;
+
+.container-three {
+  width: 50%;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 100px;
+  box-sizing: border-box;
+  margin: 25px auto;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container-three h1 {
+  width: 100%;
+  text-align: center;
+  color: rgb(1, 1, 112);
+  letter-spacing: 10px;
 }
