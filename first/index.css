@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D8D8D8;
+    background-size: cover;
+    height:100%;
+}
+#container {
+    min-height:100%;
+    position:relative;
+ }
+ #header {
+    background:#444444;
+    padding:60px;
+ }
+ #page {
+     bottom: 0;
+     width:808px;
+     height:500px;
+     background-color: white;
+     margin-left: 280px;
+     position: absolute;
+     top:120px;
+
+ }
+ #body {
+    padding:10px;
+    padding-bottom: 600px;
+       /* Height of the footer */
+ }
+ #footer {
+    position: absolute;
+    bottom:50px;
+    width:60%;
+    height:60px;   /* Height of the footer */
+    background:#222222;
+    left: 280px;
+ }
+

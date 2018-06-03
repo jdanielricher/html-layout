@@ -1,0 +1,48 @@
+.containerOne {
+    height: 100px;
+    width: 800px;
+    border: 3px solid black;
+}
+.squareOne {
+    background-color: blueviolet;
+    height: 75px;
+    width: 24px;
+    transform: translate(4px,20px);    
+}
+.squareTwo {
+    background-color: green;
+    height: 90px;
+    width: 190px;
+    transform: translate(60px, -70px);
+}
+.circle {
+    background-color: lightblue;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    transform: translate(275px, -160px);
+}
+.containerTwo {
+    height: 150px;
+    width: 800px;
+    border: 3px dotted black;
+}
+.beigeSquare {
+    background-color: #fff9cf;
+    height: 100px;
+    width: 700px;
+    transform: translate(50px,25px);
+    box-shadow: 5px 5px 5px 0px #252525;
+}
+.containerThree {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.thinSquare {
+    background-color: rgb(255, 11, 11);
+    height: 100px;
+    width: 200px;
+    transform: translate(50px,100px);
+    box-shadow: 5px 5px 5px 0px #252525;
+}
